@@ -31,3 +31,39 @@ The steps to run detector level simulation is exactly the same, but the only dif
 ```shell
 ./bin/ma5 -Re tuto_osu_detector analysis /PATH/TO/tutorial_osu/analysis/tuto_osu_detector.ma5
 ```
+This will produce following file structure
+```shell
+tuto_osu
+├── Build
+│   ├── Lib
+│   ├── Log
+│   ├── Main
+│   │   └── main.cpp
+│   ├── Makefile
+│   ├── SampleAnalyzer
+│   │   ├── User
+│   │   │   └── Analyzer
+│   │   │       ├── analysis.cpp
+│   │   │       ├── analysis.h
+│   │   │       ├── analysisList.h
+│   │   │       ├── efficiencies.h             # Auto-generated files for detector simulation
+│   │   │       ├── new_smearer_reco.cpp       # Auto-generated files for detector simulation
+│   │   │       ├── new_smearer_reco.h         # Auto-generated files for detector simulation
+│   │   │       ├── new_tagger.cpp             # Auto-generated files for detector simulation
+│   │   │       ├── new_tagger.h               # Auto-generated files for detector simulation
+│   │   │       ├── reco.h                     # Auto-generated files for detector simulation
+│   │   │       └── sigmas.h                   # Auto-generated files for detector simulation
+│   │   └── newAnalyzer.py
+│   ├── setup.csh
+│   └── setup.sh
+├── Input
+└── Output
+    ├── DVI
+    ├── HTML
+    ├── Histos
+    ├── PDF
+    └── SAF
+
+14 directories, 15 files
+```
+Again the only files that we need to change to implement the analysis is `analysis.h` and `analysis.cpp`.
