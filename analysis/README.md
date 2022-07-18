@@ -33,7 +33,7 @@ The steps to run detector level simulation is exactly the same, but the only dif
 ```
 This will produce following file structure
 ```shell
-tuto_osu
+tuto_osu_detector
 ├── Build
 │   ├── Lib
 │   ├── Log

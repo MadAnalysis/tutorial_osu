@@ -1,0 +1,19 @@
+# FastJet Configuration
+# Create a antikT jet with R=0.4 and pT > 20 GeV
+set main.fastsim.package = fastjet
+set main.fastsim.algorithm = antikt
+set main.fastsim.radius = 0.4
+set main.fastsim.ptmin = 20.0
+
+# Define B-jet matching with R=0.3 with exclusive algorithm
+set main.fastsim.bjet_id.matching_dr = 0.3
+set main.fastsim.bjet_id.exclusive = true
+
+# Define C-jet matching with R=0.3 with exclusive algorithm
+# by default this is off
+set main.fastsim.cjet_id.status = on
+set main.fastsim.cjet_id.exclusive = true
+set main.fastsim.cjet_id.matching_dr = 0.3
+
+# Define a FatJet with C/A algo pT > 200 GeV and R=1.5
+define jet_algorithm CA15 cambridge ptmin=200 radius=1.5
