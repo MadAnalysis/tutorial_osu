@@ -175,7 +175,7 @@ Note that folder and analysis name can be anything you want, it is not restricte
 
 For more information regarding MadAnalysis see the following links:
 
-* [List of publications on MadAnalysis 5](https://github.com/MadAnalysis/madanalysis5/tree/main#credits)
+* [List of publications (including manual) on MadAnalysis 5](https://github.com/MadAnalysis/madanalysis5/tree/main#credits)
 * Reference cards can be found in [`doc`](https://github.com/MadAnalysis/madanalysis5/tree/v2.0.4_beta/doc) folder.
 * See [`doc/README.md`](https://github.com/MadAnalysis/madanalysis5/tree/v2.0.4_beta/doc#readme) 
   for details on specific modules.

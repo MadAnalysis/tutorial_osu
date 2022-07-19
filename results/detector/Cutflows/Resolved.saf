@@ -1,0 +1,54 @@
+<SAFheader>
+</SAFheader>
+
+<InitialCounter>
+"Initial number of events"      #
+50000           0               # nentries
+8.467395e+04    0.000000e+00    # sum of weights
+2.390740e+06    0.000000e+00    # sum of weights^2
+</InitialCounter>
+
+<Counter>
+"$N_l=1$"                       # 1st cut
+37609           0               # nentries
+6.960923e+04    0.000000e+00    # sum of weights
+2.089153e+06    0.000000e+00    # sum of weights^2
+</Counter>
+
+<Counter>
+"$p_T(l)>50$ [GeV]"             # 2st cut
+29104           0               # nentries
+4.618170e+04    0.000000e+00    # sum of weights
+1.149173e+06    0.000000e+00    # sum of weights^2
+</Counter>
+
+<Counter>
+"$N_b\geq 2$"                   # 3st cut
+9562            0               # nentries
+1.488393e+04    0.000000e+00    # sum of weights
+3.271555e+05    0.000000e+00    # sum of weights^2
+</Counter>
+
+<Counter>
+"$N_j\geq 2$"                   # 4st cut
+8336            0               # nentries
+1.272591e+04    0.000000e+00    # sum of weights
+2.729775e+05    0.000000e+00    # sum of weights^2
+</Counter>
+
+<Counter>
+"$\slashed{E}_T>30$ [GeV]"      # 5st cut
+7877            0               # nentries
+1.169757e+04    0.000000e+00    # sum of weights
+2.564495e+05    0.000000e+00    # sum of weights^2
+</Counter>
+
+<Counter>
+"$m_{t^{rec}_L}<200$ [GeV]"     # 6st cut
+2664            0               # nentries
+3.672451e+03    0.000000e+00    # sum of weights
+7.019773e+04    0.000000e+00    # sum of weights^2
+</Counter>
+
+<SAFfooter>
+</SAFfooter>

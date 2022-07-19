@@ -1,0 +1,425 @@
+<SAFheader>
+</SAFheader>
+
+<Histo>
+  <Description>
+    "$N_{l}$"
+    # nbins   xmin           xmax           
+      5       0.000000e+00   5.000000e+00   
+    # Defined regions
+      Resolved    # Region nr. 1
+      Boosted     # Region nr. 2
+  </Description>
+  <Statistics>
+      50000          0               # nevents
+      8.467395e+04   0.000000e+00    # sum of event-weights over events
+      50000          0               # nentries
+      8.467395e+04   0.000000e+00    # sum of event-weights over entries
+      2.390740e+06   0.000000e+00    # sum weights^2
+      6.978710e+04   0.000000e+00    # sum value*weight
+      7.011873e+04   0.000000e+00    # sum value^2*weight
+  </Statistics>
+  <Data>
+      0.000000e+00   0.000000e+00    # underflow
+      1.500142e+04   0.000000e+00    # bin 1 / 5
+      6.960923e+04   0.000000e+00    # bin 2 / 5
+      1.204364e+01   0.000000e+00   
+      5.125796e+01   0.000000e+00    # bin 4 / 5
+      0.000000e+00   0.000000e+00    # bin 5 / 5
+      0.000000e+00   0.000000e+00    # overflow
+  </Data>
+</Histo>
+
+<Histo>
+  <Description>
+    "$N_{b}$"
+    # nbins   xmin           xmax           
+      5       0.000000e+00   5.000000e+00   
+    # Defined regions
+      Resolved    # Region nr. 1
+      Boosted     # Region nr. 2
+  </Description>
+  <Statistics>
+      29104          0               # nevents
+      4.618170e+04   0.000000e+00    # sum of event-weights over events
+      29104          0               # nentries
+      4.618170e+04   0.000000e+00    # sum of event-weights over entries
+      1.149173e+06   0.000000e+00    # sum weights^2
+      5.255890e+04   0.000000e+00    # sum value*weight
+      8.755085e+04   0.000000e+00    # sum value^2*weight
+  </Statistics>
+  <Data>
+      0.000000e+00   0.000000e+00    # underflow
+      9.802413e+03   0.000000e+00    # bin 1 / 5
+      2.149536e+04   0.000000e+00    # bin 2 / 5
+      1.360756e+04   0.000000e+00   
+      1.258403e+03   0.000000e+00    # bin 4 / 5
+      1.661493e+01   0.000000e+00    # bin 5 / 5
+      1.351828e+00   0.000000e+00    # overflow
+  </Data>
+</Histo>
+
+<Histo>
+  <Description>
+    "$N_{\rm light\ jet}$"
+    # nbins   xmin           xmax           
+      10      0.000000e+00   1.000000e+01   
+    # Defined regions
+      Resolved    # Region nr. 1
+      Boosted     # Region nr. 2
+  </Description>
+  <Statistics>
+      9562           0               # nevents
+      1.488393e+04   0.000000e+00    # sum of event-weights over events
+      9562           0               # nentries
+      1.488393e+04   0.000000e+00    # sum of event-weights over entries
+      3.271555e+05   0.000000e+00    # sum weights^2
+      4.413275e+04   0.000000e+00    # sum value*weight
+      1.619341e+05   0.000000e+00    # sum value^2*weight
+  </Statistics>
+  <Data>
+      0.000000e+00   0.000000e+00    # underflow
+      1.545174e+02   0.000000e+00    # bin 1 / 10
+      2.003504e+03   0.000000e+00    # bin 2 / 10
+      4.029456e+03   0.000000e+00   
+      3.874484e+03   0.000000e+00   
+      2.750440e+03   0.000000e+00   
+      1.378937e+03   0.000000e+00   
+      4.228954e+02   0.000000e+00   
+      1.999675e+02   0.000000e+00   
+      2.821517e+01   0.000000e+00    # bin 9 / 10
+      3.039828e+01   0.000000e+00    # bin 10 / 10
+      1.111235e+01   0.000000e+00    # overflow
+  </Data>
+</Histo>
+
+<Histo>
+  <Description>
+    "$p_T(l_1)\ [{\rm GeV}]$"
+    # nbins   xmin           xmax           
+      50      0.000000e+00   5.000000e+02   
+    # Defined regions
+      Resolved    # Region nr. 1
+      Boosted     # Region nr. 2
+  </Description>
+  <Statistics>
+      37609          0               # nevents
+      6.960923e+04   0.000000e+00    # sum of event-weights over events
+      37609          0               # nentries
+      6.960923e+04   0.000000e+00    # sum of event-weights over entries
+      2.089153e+06   0.000000e+00    # sum weights^2
+      6.857680e+06   0.000000e+00    # sum value*weight
+      1.160246e+09   0.000000e+00    # sum value^2*weight
+  </Statistics>
+  <Data>
+      0.000000e+00   0.000000e+00    # underflow
+      0.000000e+00   0.000000e+00    # bin 1 / 50
+      3.577696e+03   0.000000e+00    # bin 2 / 50
+      6.841634e+03   0.000000e+00   
+      7.293694e+03   0.000000e+00   
+      5.714509e+03   0.000000e+00   
+      5.573666e+03   0.000000e+00   
+      4.494163e+03   0.000000e+00   
+      4.827272e+03   0.000000e+00   
+      3.961178e+03   0.000000e+00   
+      2.930613e+03   0.000000e+00   
+      2.274330e+03   0.000000e+00   
+      2.483951e+03   0.000000e+00   
+      2.270401e+03   0.000000e+00   
+      2.068271e+03   0.000000e+00   
+      1.753586e+03   0.000000e+00   
+      1.417159e+03   0.000000e+00   
+      1.240028e+03   0.000000e+00   
+      1.131454e+03   0.000000e+00   
+      1.003070e+03   0.000000e+00   
+      9.014112e+02   0.000000e+00   
+      8.651896e+02   0.000000e+00   
+      6.850714e+02   0.000000e+00   
+      6.933743e+02   0.000000e+00   
+      6.060352e+02   0.000000e+00   
+      5.498857e+02   0.000000e+00   
+      4.095251e+02   0.000000e+00   
+      5.589826e+02   0.000000e+00   
+      3.620188e+02   0.000000e+00   
+      3.150033e+02   0.000000e+00   
+      2.978816e+02   0.000000e+00   
+      2.879635e+02   0.000000e+00   
+      2.620221e+02   0.000000e+00   
+      2.807381e+02   0.000000e+00   
+      2.052011e+02   0.000000e+00   
+      2.313748e+02   0.000000e+00   
+      1.864021e+02   0.000000e+00   
+      1.255622e+02   0.000000e+00   
+      1.028854e+02   0.000000e+00   
+      1.280813e+02   0.000000e+00   
+      9.026436e+01   0.000000e+00   
+      7.062219e+01   0.000000e+00   
+      7.792069e+01   0.000000e+00   
+      4.985583e+01   0.000000e+00   
+      5.421212e+01   0.000000e+00   
+      3.167879e+01   0.000000e+00   
+      3.289837e+01   0.000000e+00   
+      3.653864e+01   0.000000e+00   
+      2.378792e+01   0.000000e+00   
+      1.723600e+01   0.000000e+00    # bin 49 / 50
+      2.300316e+01   0.000000e+00    # bin 50 / 50
+      1.899306e+02   0.000000e+00    # overflow
+  </Data>
+</Histo>
+
+<Histo>
+  <Description>
+    "$E^{\rm miss}_T\ [{\rm GeV}]$"
+    # nbins   xmin           xmax           
+      25      0.000000e+00   5.000000e+02   
+    # Defined regions
+      Resolved    # Region nr. 1
+      Boosted     # Region nr. 2
+  </Description>
+  <Statistics>
+      8336           0               # nevents
+      1.272591e+04   0.000000e+00    # sum of event-weights over events
+      8336           0               # nentries
+      1.272591e+04   0.000000e+00    # sum of event-weights over entries
+      2.729775e+05   0.000000e+00    # sum weights^2
+      1.570607e+06   0.000000e+00    # sum value*weight
+      3.087259e+08   0.000000e+00    # sum value^2*weight
+  </Statistics>
+  <Data>
+      0.000000e+00   0.000000e+00    # underflow
+      3.679359e+02   0.000000e+00    # bin 1 / 25
+      1.700483e+03   0.000000e+00    # bin 2 / 25
+      1.574867e+03   0.000000e+00   
+      1.484856e+03   0.000000e+00   
+      1.370837e+03   0.000000e+00   
+      1.102236e+03   0.000000e+00   
+      8.172426e+02   0.000000e+00   
+      9.445320e+02   0.000000e+00   
+      5.529196e+02   0.000000e+00   
+      5.722929e+02   0.000000e+00   
+      5.084819e+02   0.000000e+00   
+      3.836859e+02   0.000000e+00   
+      2.224570e+02   0.000000e+00   
+      2.651585e+02   0.000000e+00   
+      1.505084e+02   0.000000e+00   
+      1.393161e+02   0.000000e+00   
+      8.866738e+01   0.000000e+00   
+      1.210060e+02   0.000000e+00   
+      6.656582e+01   0.000000e+00   
+      5.369264e+01   0.000000e+00   
+      3.675868e+01   0.000000e+00   
+      4.562625e+01   0.000000e+00   
+      2.968427e+01   0.000000e+00   
+      2.706587e+01   0.000000e+00    # bin 24 / 25
+      2.423047e+01   0.000000e+00    # bin 25 / 25
+      7.479919e+01   0.000000e+00    # overflow
+  </Data>
+</Histo>
+
+<Histo>
+  <Description>
+    "$m_{t^{rec}_L}\ [{\rm GeV}]$"
+    # nbins   xmin           xmax           
+      20      0.000000e+00   4.000000e+02   
+    # Defined regions
+      Resolved    # Region nr. 1
+  </Description>
+  <Statistics>
+      7877           0               # nevents
+      1.169757e+04   0.000000e+00    # sum of event-weights over events
+      7877           0               # nentries
+      1.169757e+04   0.000000e+00    # sum of event-weights over entries
+      2.564495e+05   0.000000e+00    # sum weights^2
+      3.307812e+06   0.000000e+00    # sum value*weight
+      1.196926e+09   0.000000e+00    # sum value^2*weight
+  </Statistics>
+  <Data>
+      0.000000e+00   0.000000e+00    # underflow
+      0.000000e+00   0.000000e+00    # bin 1 / 20
+      0.000000e+00   0.000000e+00    # bin 2 / 20
+      1.651532e+01   0.000000e+00   
+      7.256595e+00   0.000000e+00   
+      4.338262e+01   0.000000e+00   
+      1.764371e+02   0.000000e+00   
+      5.375969e+02   0.000000e+00   
+      7.485208e+02   0.000000e+00   
+      1.126390e+03   0.000000e+00   
+      1.016352e+03   0.000000e+00   
+      8.403771e+02   0.000000e+00   
+      9.204213e+02   0.000000e+00   
+      1.015030e+03   0.000000e+00   
+      8.834479e+02   0.000000e+00   
+      5.821736e+02   0.000000e+00   
+      7.180448e+02   0.000000e+00   
+      3.920732e+02   0.000000e+00   
+      4.171734e+02   0.000000e+00   
+      2.820727e+02   0.000000e+00    # bin 19 / 20
+      2.736608e+02   0.000000e+00    # bin 20 / 20
+      1.700648e+03   0.000000e+00    # overflow
+  </Data>
+</Histo>
+
+<Histo>
+  <Description>
+    "$N_{\rm fat\ jet}$"
+    # nbins   xmin           xmax           
+      5       0.000000e+00   5.000000e+00   
+    # Defined regions
+      Boosted    # Region nr. 1
+  </Description>
+  <Statistics>
+      7877           0               # nevents
+      1.169757e+04   0.000000e+00    # sum of event-weights over events
+      7877           0               # nentries
+      1.169757e+04   0.000000e+00    # sum of event-weights over entries
+      2.564495e+05   0.000000e+00    # sum weights^2
+      1.613766e+04   0.000000e+00    # sum value*weight
+      2.836739e+04   0.000000e+00    # sum value^2*weight
+  </Statistics>
+  <Data>
+      0.000000e+00   0.000000e+00    # underflow
+      9.693777e+02   0.000000e+00    # bin 1 / 5
+      5.992012e+03   0.000000e+00    # bin 2 / 5
+      4.094235e+03   0.000000e+00   
+      6.114268e+02   0.000000e+00    # bin 4 / 5
+      2.971704e+01   0.000000e+00    # bin 5 / 5
+      8.047799e-01   0.000000e+00    # overflow
+  </Data>
+</Histo>
+
+<Histo>
+  <Description>
+    "$m_{t^{rec}_H}\ [{\rm GeV}]$"
+    # nbins   xmin           xmax           
+      20      0.000000e+00   4.000000e+02   
+    # Defined regions
+      Boosted    # Region nr. 1
+  </Description>
+  <Statistics>
+      3427           0               # nevents
+      4.716521e+03   0.000000e+00    # sum of event-weights over events
+      3427           0               # nentries
+      4.716521e+03   0.000000e+00    # sum of event-weights over entries
+      7.614909e+04   0.000000e+00    # sum weights^2
+      8.058766e+05   0.000000e+00    # sum value*weight
+      1.381188e+08   0.000000e+00    # sum value^2*weight
+  </Statistics>
+  <Data>
+      0.000000e+00   0.000000e+00    # underflow
+      0.000000e+00   0.000000e+00    # bin 1 / 20
+      0.000000e+00   0.000000e+00    # bin 2 / 20
+      0.000000e+00   0.000000e+00   
+      0.000000e+00   0.000000e+00   
+      0.000000e+00   0.000000e+00   
+      0.000000e+00   0.000000e+00   
+      0.000000e+00   0.000000e+00   
+      6.045814e+02   0.000000e+00   
+      3.439207e+03   0.000000e+00   
+      6.727327e+02   0.000000e+00   
+      0.000000e+00   0.000000e+00   
+      0.000000e+00   0.000000e+00   
+      0.000000e+00   0.000000e+00   
+      0.000000e+00   0.000000e+00   
+      0.000000e+00   0.000000e+00   
+      0.000000e+00   0.000000e+00   
+      0.000000e+00   0.000000e+00   
+      0.000000e+00   0.000000e+00   
+      0.000000e+00   0.000000e+00    # bin 19 / 20
+      0.000000e+00   0.000000e+00    # bin 20 / 20
+      0.000000e+00   0.000000e+00    # overflow
+  </Data>
+</Histo>
+
+<Histo>
+  <Description>
+    "$m_{t^{SD}_H}\ [{\rm GeV}]$"
+    # nbins   xmin           xmax           
+      20      0.000000e+00   4.000000e+02   
+    # Defined regions
+      Boosted    # Region nr. 1
+  </Description>
+  <Statistics>
+      3427           0               # nevents
+      4.716521e+03   0.000000e+00    # sum of event-weights over events
+      3427           0               # nentries
+      4.716521e+03   0.000000e+00    # sum of event-weights over entries
+      7.614909e+04   0.000000e+00    # sum weights^2
+      9.782307e+05   0.000000e+00    # sum value*weight
+      2.432478e+08   0.000000e+00    # sum value^2*weight
+  </Statistics>
+  <Data>
+      0.000000e+00   0.000000e+00    # underflow
+      0.000000e+00   0.000000e+00    # bin 1 / 20
+      0.000000e+00   0.000000e+00    # bin 2 / 20
+      9.528962e+00   0.000000e+00   
+      2.543737e+01   0.000000e+00   
+      1.392962e+02   0.000000e+00   
+      2.257665e+02   0.000000e+00   
+      2.194289e+02   0.000000e+00   
+      8.521695e+01   0.000000e+00   
+      1.286871e+03   0.000000e+00   
+      1.176251e+03   0.000000e+00   
+      5.003985e+02   0.000000e+00   
+      2.120752e+02   0.000000e+00   
+      1.896496e+02   0.000000e+00   
+      9.959309e+01   0.000000e+00   
+      8.614085e+01   0.000000e+00   
+      5.818810e+01   0.000000e+00   
+      3.598835e+01   0.000000e+00   
+      4.316498e+01   0.000000e+00   
+      3.496701e+01   0.000000e+00    # bin 19 / 20
+      4.970677e+01   0.000000e+00    # bin 20 / 20
+      2.388514e+02   0.000000e+00    # overflow
+  </Data>
+</Histo>
+
+<Histo>
+  <Description>
+    "$m_{t\bar{t}}\ [{\rm GeV}]$"
+    # nbins   xmin           xmax           
+      25      5.000000e+02   3.000000e+03   
+    # Defined regions
+      Boosted    # Region nr. 1
+  </Description>
+  <Statistics>
+      3427           0               # nevents
+      4.716521e+03   0.000000e+00    # sum of event-weights over events
+      3427           0               # nentries
+      4.716521e+03   0.000000e+00    # sum of event-weights over entries
+      7.614909e+04   0.000000e+00    # sum weights^2
+      5.588141e+06   0.000000e+00    # sum value*weight
+      6.913215e+09   0.000000e+00    # sum value^2*weight
+  </Statistics>
+  <Data>
+      6.464282e+00   0.000000e+00    # underflow
+      2.409072e+00   0.000000e+00    # bin 1 / 25
+      1.469630e+01   0.000000e+00    # bin 2 / 25
+      6.450793e+01   0.000000e+00   
+      1.240525e+02   0.000000e+00   
+      8.119876e+02   0.000000e+00   
+      9.274049e+02   0.000000e+00   
+      9.277241e+02   0.000000e+00   
+      6.176867e+02   0.000000e+00   
+      5.347606e+02   0.000000e+00   
+      2.550702e+02   0.000000e+00   
+      1.470857e+02   0.000000e+00   
+      1.046870e+02   0.000000e+00   
+      5.845501e+01   0.000000e+00   
+      4.027723e+01   0.000000e+00   
+      4.099523e+01   0.000000e+00   
+      9.072923e+00   0.000000e+00   
+      8.061520e+00   0.000000e+00   
+      8.086076e+00   0.000000e+00   
+      2.388184e+00   0.000000e+00   
+      3.601914e+00   0.000000e+00   
+      9.123687e-01   0.000000e+00   
+      1.913184e+00   0.000000e+00   
+      0.000000e+00   0.000000e+00   
+      8.003024e-01   0.000000e+00    # bin 24 / 25
+      8.323447e-01   0.000000e+00    # bin 25 / 25
+      2.588068e+00   0.000000e+00    # overflow
+  </Data>
+</Histo>
+
+<SAFfooter>
+</SAFfooter>
