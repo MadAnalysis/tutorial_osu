@@ -46,6 +46,7 @@ tuto_osu_detector
 │   │   │       ├── analysis.cpp
 │   │   │       ├── analysis.h
 │   │   │       ├── analysisList.h
+---------------------------------------------------------------------------------------------
 │   │   │       ├── efficiencies.h             # Auto-generated files for detector simulation
 │   │   │       ├── new_smearer_reco.cpp       # Auto-generated files for detector simulation
 │   │   │       ├── new_smearer_reco.h         # Auto-generated files for detector simulation
@@ -53,6 +54,7 @@ tuto_osu_detector
 │   │   │       ├── new_tagger.h               # Auto-generated files for detector simulation
 │   │   │       ├── reco.h                     # Auto-generated files for detector simulation
 │   │   │       └── sigmas.h                   # Auto-generated files for detector simulation
+---------------------------------------------------------------------------------------------
 │   │   └── newAnalyzer.py
 │   ├── setup.csh
 │   └── setup.sh

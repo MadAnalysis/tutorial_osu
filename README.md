@@ -130,15 +130,16 @@ Once the above installation is complete one can create an expert mode workspace 
 where folder name is the name of the workspace, followed by the analysis name and the 
 [SFS](https://arxiv.org/abs/2006.09387) card, which includes the configuration for jet clustering and 
 detector simulation. For instance, lets create a simple [SFS](https://arxiv.org/abs/2006.09387) card; open 
-a file named `tuto_osu.ma5` and add following line
+a file named `tuto_osu.ma5`
 ```shell
-set main.fastsim.package = fastjet
+echo "set main.fastsim.package = fastjet" > tuto_osu.ma5
 ```
 This will tell MadAnalysis to use FastJet interface with default configuration. So if we type
 ```shell
 ./bin/ma5 -Re tuto_osu analysis tuto_osu.ma5
 ```
-MadAnalysis will create a folder named `tuto_uso` with the following structure
+where `R` indicates reco-mode and `e` indicates the expert mode, MadAnalysis will create a folder named 
+`tuto_uso` with the following structure
 ```shell
 tuto_osu
 ├── Build
@@ -166,6 +167,7 @@ tuto_osu
 
 14 directories, 8 files
 ```
+Note that folder and analysis name can be anything you want, it is not restricted.
 
 [back to top](#outline)
 
@@ -174,7 +176,10 @@ tuto_osu
 For more information regarding MadAnalysis see the following links:
 
 * [List of publications on MadAnalysis 5](https://github.com/MadAnalysis/madanalysis5/tree/main#credits)
-* Reference cards can be found in `doc` folder.
-* See `doc/README.md` for details on specific modules.
+* Reference cards can be found in [`doc`](https://github.com/MadAnalysis/madanalysis5/tree/v2.0.4_beta/doc) folder.
+* See [`doc/README.md`](https://github.com/MadAnalysis/madanalysis5/tree/v2.0.4_beta/doc#readme) 
+  for details on specific modules.
 * [Tutorials](https://madanalysis.irmp.ucl.ac.be/wiki/tutorials)
 * [Talks](http://madanalysis.irmp.ucl.ac.be/wiki/Talks)
+* Report your [issues](https://github.com/MadAnalysis/madanalysis5/issues/new/choose) or start a 
+  [discussion](https://github.com/MadAnalysis/madanalysis5/discussions).
