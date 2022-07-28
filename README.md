@@ -1,4 +1,4 @@
-# Tutorial for Oklahoma State University
+# Tutorial for Oklahoma State University HEP Group
 
 This tutorial focuses on a $t \bar{t}$ analysis with resolved and boosted signal regions. With the resolved signal region, 
 we will go through the main functionality of the MadAnalysis 5 workspace structure and learn how to prepare cut-flows
@@ -6,6 +6,9 @@ and histograms. With the boosted signal region, we will investigate the jet subs
 This will also show how to add multiple signal regions to our analysis.
 
 Please ensure you satisfy all the requirements below before starting this tutorial.
+
+**PS:** Please install MadAnalysis as shown below before the tutorial session and make sure that you have generated at
+least 10K semileptonic, showered and hadronized $t \bar{t}$ events using the materials in `sample` folder.
 
 ## Outline
 
